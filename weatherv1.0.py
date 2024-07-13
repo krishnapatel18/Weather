@@ -37,9 +37,9 @@ class WeatherDietAdvisor:
 
         return suggestion
 
-weather_api_key = "ed6121a43b2ee1069009052b29be4753"
+weather_api_key = "<use your api key here>"
 weather_api_url = "https://api.openweathermap.org/data/2.5/weather"
-city_id = 1253559
+city_id = 2988507           
 
 advisor = WeatherDietAdvisor(weather_api_key, weather_api_url, city_id)
 temperature = advisor.get_current_temperature()
